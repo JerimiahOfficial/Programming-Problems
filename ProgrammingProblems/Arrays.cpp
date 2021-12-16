@@ -6,19 +6,21 @@
 
 	2.	Remove a number from an array.
 
-	3.	Find the number that was removed.
+	3.	Find the number that was removed
+		and print the missing number.
 
 	4.	Add the number that was removed 
 		from the array.
 
 */
 
+#include "Arrays.h"
 #include <cstdio>
 #include <iostream>
 #include <vector>
 #include <string>
 
-int main() {
+void Arrays::BasicOperations() {
 	// Initialize an empty array.
 	std::vector<int> Numbers;
 
@@ -30,7 +32,7 @@ int main() {
 	// Print out the array.
 	std::cout << "Array after numbers added:" << std::endl;
 	std::copy(Numbers.begin(), Numbers.end(), std::ostream_iterator<int>(std::cout, " "));
-	std::cout << std::endl;
+	std::cout << std::endl << std::endl;
 
 	// Remove a number from the array.
 	Numbers.erase(Numbers.begin() + 4);
