@@ -10,7 +10,7 @@
 		and print the missing number.
 
 	4.	Add the number that was removed 
-		from the array at it's respected
+		from the array at its respected
 		index.
 
 */
