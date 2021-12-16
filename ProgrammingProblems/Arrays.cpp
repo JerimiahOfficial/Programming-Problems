@@ -1,6 +1,6 @@
 /*
 
-	Programming problems
+	Programming problems : Arrays
 
 	1.	Add numbers to an empty array.
 
