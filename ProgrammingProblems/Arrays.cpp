@@ -45,7 +45,7 @@ void Arrays::BasicOperations() {
 
 	// Find missing number from 1-10 
 	// and add it back into the array.
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < static_cast<int>(Numbers.size()); i++) {
 		if (i + 1 != Numbers[i]) {
 			std::cout << std::endl << i + 1 << " is missing from Number array." << std::endl << std::endl;
 			Numbers.insert(Numbers.begin() + i, { i + 1 });
